@@ -203,10 +203,7 @@ function App() {
       name: 'Python',
       class: "devicon-python-plain-wordmark colored",
     },
-    {
-      name: 'Java',
-      class: "devicon-java-plain-wordmark colored",
-    }
+
   ]
 
 
@@ -223,7 +220,6 @@ function App() {
                 <a href={icon.link} target='_blank'>
                   <i className={icon.class}></i>
                 </a>);
-
             })}
             <a href='https://discord.gg/8j3yKU3Z' target='_blank'>
               <DiscordLogo size={32} />
@@ -245,7 +241,7 @@ function App() {
 
       <div className='tech'>
         <h1 className='hidden'>Technologies</h1>
-        <div  className='tech-icons hidden'>
+        <div className='tech-icons hidden'>
           {techIcons.map((icon) => {
             return (
               <div className='tech-icon floating'>
@@ -253,13 +249,43 @@ function App() {
               </div>
             );
           })}
+
         </div>
       </div>
       <div className='experience'>
         <h1 className='hidden'>
           Experience
         </h1>
-        
+        <div className='experience-grid'>
+          <div className='date'>
+            <h3 className='hidden'>December 2023 – Present</h3>
+          </div>
+          <div className='experience-text'>
+            <h3 className='hidden'>Web Developer</h3>
+            <p className='hidden'>Developed an ecommerce photography portfolio website for professional photographer using React.js.
+              Created components for home, shop, product details, cart, contact form, and about pages.
+              Managed state with React Context API and ShopContextProvider component.
+              Used React router for navigation between pages.</p>
+          </div>
+          <div className='date'>
+            <h3 className='hidden'>February 2024</h3>
+          </div>
+          <div className='experience-text'>
+            <h3 className='hidden'>Lab</h3>
+            <p className='hidden'>Developed a data application leveraging Financial & Economic Essentials from Cybersyn, utilizing Snowflake Marketplace..
+Processed data with Snowpark, developed a simple ML model, and created a Python UDF in Snowflake.</p>
+          </div>
+          <div className='date'>
+            <h3 className='hidden' id='timeDate'>December 2023</h3>
+          </div>
+          <div className='experience-text'>
+            <h3 className='hidden'>HTML & CSS Full Course</h3>
+            <p className='hidden'>Proficiency in HTML for structuring web content and CSS for styling and layout
+Building responsive web designs
+Understanding the fundamentals of web development</p>
+          </div>
+        </div>
+
       </div>
     </div>
   );
