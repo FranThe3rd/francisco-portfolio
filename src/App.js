@@ -224,7 +224,7 @@ function App() {
                   <i className={icon.class}></i>
                 </a>);
             })}
-            <a href='https://discord.gg/8j3yKU3Z' target='_blank'>
+            <a href='' target='_blank'>
               <DiscordLogo size={32} />
             </a>
           </div>
@@ -299,11 +299,15 @@ function App() {
           <div className='project-text noSlideRight'>
             <h2>Infinitron</h2>
             <p>Infinitron is a website for a computer store that specializes in custom-built gaming PCs. The website allows users to browse and configure their desired gaming PC based on their budget and performance requirements.</p>
-              <div className='project-tech'>
-                <h4>HTML</h4>
-                <h4>CSS</h4>
-                <h4>React</h4>
-                <h4>JavaScript</h4>
+            <div className='project-tech'>
+              <h4>HTML</h4>
+              <h4>CSS</h4>
+              <h4>React</h4>
+              <h4>JavaScript</h4>
+            </div>
+            <div className='project-live'>
+              <a href='https://infinitron.netlify.app/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/FranThe3rd/Infinitron' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
           <div className='project-image noSlideLeft2'>
@@ -313,11 +317,14 @@ function App() {
             <h2>Blackjack Discord Bot</h2>
             <p>A Discord bot simulating blackjack using AWS and Docker. When prompted, it displays cards, allows hitting/standing, and plays the dealer's hand. Built with Python, it runs in Docker containers deployed on AWS EC2 instance.</p>
             <div className='project-tech'>
-                <h4>Python</h4>
-                <h4>Redis</h4>
-                <h4>Docker</h4>
-                <h4>AWS</h4>
-
+              <h4>Python</h4>
+              <h4>Redis</h4>
+              <h4>Docker</h4>
+              <h4>AWS</h4>
+            </div>
+            <div className='project-live'>
+              <a href='https://github.com/cs220s24/DevOps-Discord-Bot' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/cs220s24/DevOps-Discord-Bot' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
           <div className='project-image noSlideLeft2'>
@@ -327,13 +334,20 @@ function App() {
             <h2>Opulance</h2>
             <p>Opulance is a financial app that provides users with excellent financial services and tools to manage their investments, including cryptocurrencies and stocks. Does provide real time stock market data with Real-Time Finance Data API.</p>
             <div className='project-tech'>
-                <h4>HTML</h4>
-                <h4>CSS</h4>
-                <h4>React</h4>
-                <h4>JavaScript</h4>
+              <h4>HTML</h4>
+              <h4>CSS</h4>
+              <h4>React</h4>
+              <h4>JavaScript</h4>
+            </div>
+            <div className='project-live'>
+              <a href='https://opulance.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/FranThe3rd/Opulance' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
         </div>
+      </div>
+      <div className='email'>
+      <h3>francisco.figueroa.dev@gmail.com</h3>
       </div>
     </div>
   );

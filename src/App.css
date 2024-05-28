@@ -125,6 +125,13 @@ min-height: 1080px;
   font-size: 2rem;
   margin-right: 1rem;
   text-align: center;
+  transition: all 0.6s ease-in-out;
+}
+
+.icons a:hover {
+  color: rgb(99, 10, 216);
+
+
 }
 
 
@@ -371,6 +378,52 @@ color: white;
   padding: 5px;
 }
 
+.project-live {
+  max-width: 190px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.project-live a {
+  font-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-live h4 {
+  color: rgb(194, 17, 17);
+  font-size: clamp(.7rem, 2vw, 1rem);  
+  font-weight: 300;
+    margin-left: 1rem;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: left;
+    background-color: rgb(25, 25, 25);
+  padding: 5px;
+  border: solid .2px rgb(66, 66, 66);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.project-live h4:hover {
+  color: rgb(255, 0, 0);
+
+}
+
+.email {
+  margin-top: 50px;
+}
+
+.email h3 {
+  color: white;
+  text-align: center;
+  font-size: clamp(.5rem, 3vw, 1rem);  
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 200;
+
+
+}
+
 
 @media screen and (max-width: 1920px){
   .app-hero-grid {
@@ -402,10 +455,12 @@ color: white;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
-    align-items: center;
+    align-items: center; 
     margin: 0 auto;
     text-align: center;
   }
+
+  
 
   .experience h1 {
     margin-top: 50px;
@@ -469,7 +524,7 @@ color: white;
   }
 
   .app-hero-grid {
-    margin-top: 50px;
+    margin-top: 51px;
   }
 
   .experience-grid {
