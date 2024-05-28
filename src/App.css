@@ -349,7 +349,7 @@ color: white;
 .project-text h2 {
   color: white;
   font-size: clamp(1rem, 2vw, 1.5rem);  
-  font-weight: 300;
+  font-weight: 600;
     margin-left: 1rem;
     font-family: 'Inter Tight', sans-serif;
     text-align: left;
