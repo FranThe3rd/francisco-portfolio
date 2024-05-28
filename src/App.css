@@ -36,8 +36,8 @@
 .noSlideLeft2 {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(-100%);
-  transition: ease-in-out 3s;
+  transform: translateX(-10%);
+  transition: ease-in-out 1s;
 }
 
 .slideLeft2 {
@@ -63,8 +63,8 @@
 .noSlideRight {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(100%);
-  transition: ease-in-out 3s;
+  transform: translateX(10%);
+  transition: ease-in-out 1s;
 }
 
 .slideRight {
@@ -261,10 +261,10 @@ color: white;
 .experience-grid {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-gap: 1rem;
-  margin-top: 50px;
   width: 80%;
   margin: 0 auto;
+  gap: 1rem;
+
 
 }
 
@@ -291,9 +291,99 @@ color: white;
 }
 
 
-.experience-grid .timeDate {
-  color: red;
 
+.projects {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  
+
+}
+
+.projects h1 {
+  color: white;
+  font-size: clamp(1.5rem, 4vw, 4rem);  
+  font-weight: 200;
+    margin-left: 1rem;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+}
+
+.project-grid {
+  display: grid;
+  margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: repeat(2,1fr);
+  height: 100%;
+  gap: 70px;
+}
+
+
+
+.project-image img {
+  max-width: 450px ;
+  width: 100%;
+  border: solid 2px white;
+}
+
+.project-text {
+  color: white;
+}
+
+.project-text h2 {
+  color: white;
+  font-size: clamp(1rem, 2vw, 1.5rem);  
+  font-weight: 300;
+    margin-left: 1rem;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: left;
+}
+
+.project-text p {
+  color: white;
+  font-size: clamp(.7rem, 2vw, 1rem);  
+  font-weight: 200;
+    margin-left: 1rem;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: left;
+
+
+}
+
+.project-tech {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-tech h4 {
+  color: rgb(179, 0, 255);
+  font-size: clamp(.7rem, 2vw, 1rem);  
+  font-weight: 600;
+    margin-left: 1rem;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: left;
+    background-color: rgb(25, 25, 25);
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 1920px){
+  .app-hero-grid {
+    margin-top: 230px;
+  }
+ 
+}
+
+@media screen and (max-width: 1660px){
+  .app-hero-grid {
+    margin-top: 150px;
+  }
+ 
 }
 
 
@@ -319,6 +409,24 @@ color: white;
 
   .experience h1 {
     margin-top: 50px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+    place-content: center;
+  }
+
+  .project-grid img {
+    max-width: 640px;
+    width: 95%;
+    display: block;
+   margin: 0 auto;
+  }
+
+  .project-text {
+    margin: 0 auto;
   }
   
 }
@@ -358,6 +466,10 @@ color: white;
 @media screen and (max-width: 600px){
   .app-hero-text p {
     width: 90%;
+  }
+
+  .app-hero-grid {
+    margin-top: 50px;
   }
 
   .experience-grid {

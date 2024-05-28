@@ -2,6 +2,9 @@ import './App.css';
 import { DiscordLogo } from 'phosphor-react';
 import myFace from './assets/sexyface.jpg'
 import { useEffect } from 'react';
+import project1 from './assets/project1.jpg'
+import project2 from './assets/project2.gif'
+import project3 from './assets/project3.png'
 
 
 
@@ -273,7 +276,7 @@ function App() {
           <div className='experience-text'>
             <h3 className='hidden'>Lab</h3>
             <p className='hidden'>Developed a data application leveraging Financial & Economic Essentials from Cybersyn, utilizing Snowflake Marketplace..
-Processed data with Snowpark, developed a simple ML model, and created a Python UDF in Snowflake.</p>
+              Processed data with Snowpark, developed a simple ML model, and created a Python UDF in Snowflake.</p>
           </div>
           <div className='date'>
             <h3 className='hidden' id='timeDate'>December 2023</h3>
@@ -281,11 +284,56 @@ Processed data with Snowpark, developed a simple ML model, and created a Python 
           <div className='experience-text'>
             <h3 className='hidden'>HTML & CSS Full Course</h3>
             <p className='hidden'>Proficiency in HTML for structuring web content and CSS for styling and layout
-Building responsive web designs
-Understanding the fundamentals of web development</p>
+              Building responsive web designs
+              Understanding the fundamentals of web development</p>
           </div>
         </div>
 
+      </div>
+      <div className='projects'>
+        <h1 className='hidden'>Projects</h1>
+        <div className='project-grid'>
+          <div className='project-image noSlideLeft2'>
+            <img src={project1} alt='project' />
+          </div>
+          <div className='project-text noSlideRight'>
+            <h2>Infinitron</h2>
+            <p>Infinitron is a website for a computer store that specializes in custom-built gaming PCs. The website allows users to browse and configure their desired gaming PC based on their budget and performance requirements.</p>
+              <div className='project-tech'>
+                <h4>HTML</h4>
+                <h4>CSS</h4>
+                <h4>React</h4>
+                <h4>JavaScript</h4>
+            </div>
+          </div>
+          <div className='project-image noSlideLeft2'>
+            <img src={project2} alt='project' />
+          </div>
+          <div className='project-text noSlideRight'>
+            <h2>Blackjack Discord Bot</h2>
+            <p>A Discord bot simulating blackjack using AWS and Docker. When prompted, it displays cards, allows hitting/standing, and plays the dealer's hand. Built with Python, it runs in Docker containers deployed on AWS EC2 instance.</p>
+            <div className='project-tech'>
+                <h4>Python</h4>
+                <h4>Redis</h4>
+                <h4>Docker</h4>
+                <h4>AWS</h4>
+
+            </div>
+          </div>
+          <div className='project-image noSlideLeft2'>
+            <img src={project3} alt='project' />
+          </div>
+          <div className='project-text noSlideRight'>
+            <h2>Opulance</h2>
+            <p>Opulance is a financial app that provides users with excellent financial services and tools to manage their investments, including cryptocurrencies and stocks. Does provide real time stock market data with Real-Time Finance Data API.</p>
+            <div className='project-tech'>
+                <h4>HTML</h4>
+                <h4>CSS</h4>
+                <h4>React</h4>
+                <h4>JavaScript</h4>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
