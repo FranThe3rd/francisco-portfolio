@@ -261,9 +261,9 @@ function App() {
         </h1>
         <div className='experience-grid'>
           <div className='date'>
-            <h3 className='hidden'>December 2023 – Present</h3>
+            <h3 className='noSlideLeft2'>December 2023 – Present</h3>
           </div>
-          <div className='experience-text'>
+          <div className='experience-text noSlideRight'>
             <h3 className='hidden'>Web Developer</h3>
             <p className='hidden'>Developed an ecommerce photography portfolio website for professional photographer using React.js.
               Created components for home, shop, product details, cart, contact form, and about pages.
@@ -271,9 +271,9 @@ function App() {
               Used React router for navigation between pages.</p>
           </div>
           <div className='date'>
-            <h3 className='hidden'>February 2024</h3>
+            <h3 className='noSlideLeft2'>February 2024</h3>
           </div>
-          <div className='experience-text'>
+          <div className='experience-text noSlideRight'>
             <h3 className='hidden'>Lab</h3>
             <p className='hidden'>Developed a data application leveraging Financial & Economic Essentials from Cybersyn, utilizing Snowflake Marketplace..
               Processed data with Snowpark, developed a simple ML model, and created a Python UDF in Snowflake.</p>
@@ -281,7 +281,7 @@ function App() {
           <div className='date'>
             <h3 className='hidden' id='timeDate'>December 2023</h3>
           </div>
-          <div className='experience-text'>
+          <div className='experience-text noSlideRight'>
             <h3 className='hidden'>HTML & CSS Full Course</h3>
             <p className='hidden'>Proficiency in HTML for structuring web content and CSS for styling and layout
               Building responsive web designs
@@ -347,7 +347,7 @@ function App() {
         </div>
       </div>
       <div className='email'>
-      <h3>francisco.figueroa.dev@gmail.com</h3>
+      <h3 className='hidden'>francisco.figueroa.dev@gmail.com</h3>
       </div>
     </div>
   );
