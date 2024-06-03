@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import project1 from './assets/project1.jpg'
 import project2 from './assets/project2.gif'
 import project3 from './assets/project3.png'
+import project4 from './assets/project4.jpg'
 
 
 
@@ -275,7 +276,7 @@ function App() {
           </div>
           <div className='experience-text noSlideRight'>
             <h3 className='hidden'>Lab</h3>
-            <p className='hidden'>Developed a data application leveraging Financial & Economic Essentials from Cybersyn, utilizing Snowflake Marketplace..
+            <p className='hidden'>Developed a data application leveraging Financial & Economic Essentials from Cybersyn, utilizing Snowflake Marketplace.
               Processed data with Snowpark, developed a simple ML model, and created a Python UDF in Snowflake.</p>
           </div>
           <div className='date'>
@@ -294,6 +295,24 @@ function App() {
         <h1 className='hidden'>Projects</h1>
         <div className='project-grid'>
           <div className='project-image noSlideLeft2'>
+            <img src={project4} alt='project' />
+          </div>
+          <div className='project-text noSlideRight'>
+            <h2>ZephyrGPT</h2>
+            <p>ZephyrGPT is supposed to be an advanced AI-powered chatbot. It uses the Gemini API (chatbot from google) for intelligent, personalized responses and the News API for real-time updates. Our platform ensures a secure, engaging conversation experience with a user-friendly interface. </p>
+            <div className='project-tech'>
+              <h4>HTML</h4>
+              <h4>CSS</h4>
+              <h4>React</h4>
+              <h4>JavaScript</h4>
+            </div>
+            <div className='project-live'>
+              <a href='https://zephyrgpt.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/FranThe3rd/ZephyrGPT' target='_blank'><h4>Github</h4></a>
+            </div>
+          </div>
+
+          <div className='project-image noSlideLeft2'>
             <img src={project1} alt='project' />
           </div>
           <div className='project-text noSlideRight'>
@@ -310,6 +329,7 @@ function App() {
               <a href='https://github.com/FranThe3rd/Infinitron' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
+
           <div className='project-image noSlideLeft2'>
             <img src={project2} alt='project' />
           </div>
