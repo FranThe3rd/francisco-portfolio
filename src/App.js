@@ -307,7 +307,7 @@ function App() {
               <h4>JavaScript</h4>
             </div>
             <div className='project-live'>
-              <a href='https://zephyrgpt.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://zephyrgpt.netlify.app/' target='_blank'><h4>Live Demo</h4></a>
               <a href='https://github.com/FranThe3rd/ZephyrGPT' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
