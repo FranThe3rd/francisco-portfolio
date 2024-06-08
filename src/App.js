@@ -1,5 +1,5 @@
 import './App.css';
-import { DiscordLogo } from 'phosphor-react';
+import { Envelope } from 'phosphor-react';
 import myFace from './assets/sexyface.jpg'
 import { useEffect } from 'react';
 import project1 from './assets/project1.jpg'
@@ -225,8 +225,8 @@ function App() {
                   <i className={icon.class}></i>
                 </a>);
             })}
-            <a href='' target='_blank'>
-              <DiscordLogo size={32} />
+            <a href='mailto:francisco.figueroa.dev@gmail.com'>
+              <Envelope size={32} />
             </a>
           </div>
         </div>
@@ -331,23 +331,6 @@ function App() {
           </div>
 
           <div className='project-image noSlideLeft2'>
-            <img src={project2} alt='project' />
-          </div>
-          <div className='project-text noSlideRight'>
-            <h2>Blackjack Discord Bot</h2>
-            <p>A Discord bot simulating blackjack using AWS and Docker. When prompted, it displays cards, allows hitting/standing, and plays the dealer's hand. Built with Python, it runs in Docker containers deployed on AWS EC2 instance.</p>
-            <div className='project-tech'>
-              <h4>Python</h4>
-              <h4>Redis</h4>
-              <h4>Docker</h4>
-              <h4>AWS</h4>
-            </div>
-            <div className='project-live'>
-              <a href='https://github.com/cs220s24/DevOps-Discord-Bot' target='_blank'><h4>Live Demo</h4></a>
-              <a href='https://github.com/cs220s24/DevOps-Discord-Bot' target='_blank'><h4>Github</h4></a>
-            </div>
-          </div>
-          <div className='project-image noSlideLeft2'>
             <img src={project3} alt='project' />
           </div>
           <div className='project-text noSlideRight'>
@@ -364,11 +347,29 @@ function App() {
               <a href='https://github.com/FranThe3rd/Opulance' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
+
+          <div className='project-image noSlideLeft2'>
+            <img src={project2} alt='project' />
+          </div>
+          <div className='project-text noSlideRight'>
+            <h2>Blackjack Discord Bot</h2>
+            <p>A Discord bot simulating blackjack using AWS and Docker. When prompted, it displays cards, allows hitting/standing, and plays the dealer's hand. Built with Python, it runs in Docker containers deployed on AWS EC2 instance.</p>
+            <div className='project-tech'>
+              <h4>Python</h4>
+              <h4>Redis</h4>
+              <h4>Docker</h4>
+              <h4>AWS</h4>
+            </div>
+            <div className='project-live'>
+              <a href='https://github.com/cs220s24/DevOps-Discord-Bot' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/cs220s24/DevOps-Discord-Bot' target='_blank'><h4>Github</h4></a>
+            </div>
+          </div>
+
+          
         </div>
       </div>
-      <div className='email'>
-      <h3 className='hidden'>francisco.figueroa.dev@gmail.com</h3>
-      </div>
+      
     </div>
   );
 }
