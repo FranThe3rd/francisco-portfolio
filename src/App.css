@@ -292,12 +292,17 @@ color: white;
 }
 
 .experience-grid p {
-  color: white;
   font-size: clamp(.7rem, 2vw, 1rem);  
   font-weight: 200;
     margin-left: 1rem;
     font-family: 'Inter Tight', sans-serif;
     text-align: left;
+
+}
+
+.italicText {
+  font-style: italic;
+  color: rgb(154, 154, 154);
 
 }
 

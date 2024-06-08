@@ -266,6 +266,7 @@ function App() {
           </div>
           <div className='experience-text noSlideRight'>
             <h3 className='hidden'>Web Developer</h3>
+            <p className='italicText'>Freelance</p>
             <p className='hidden'>Developed an ecommerce photography portfolio website for professional photographer using React.js.
               Created components for home, shop, product details, cart, contact form, and about pages.
               Managed state with React Context API and ShopContextProvider component.
@@ -276,6 +277,7 @@ function App() {
           </div>
           <div className='experience-text noSlideRight'>
             <h3 className='hidden'>Lab</h3>
+            <p className='italicText'>Snowflake</p>
             <p className='hidden'>Developed a data application leveraging Financial & Economic Essentials from Cybersyn, utilizing Snowflake Marketplace.
               Processed data with Snowpark, developed a simple ML model, and created a Python UDF in Snowflake.</p>
           </div>
@@ -284,6 +286,7 @@ function App() {
           </div>
           <div className='experience-text noSlideRight'>
             <h3 className='hidden'>HTML & CSS Full Course</h3>
+            <p className='italicText'>SuperSimple.dev</p>
             <p className='hidden'>Proficiency in HTML for structuring web content and CSS for styling and layout
               Building responsive web designs
               Understanding the fundamentals of web development</p>
