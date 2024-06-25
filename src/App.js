@@ -238,7 +238,7 @@ function App() {
             <p >Hello, I am computer science student at Moravian University. My primary expertise lies in developing websites using React. I'm actively seeking opportunities to apply my skills in real-world settings and land my first role at a tech internship since getting experience is my main priority. </p>
           </div>
           <div className='app-hero-image'>
-            <img className='hidden' src={myFace} alt='sexy face' />
+            <div className='blob hidden'></div>
           </div>
         </div>
       </div>
