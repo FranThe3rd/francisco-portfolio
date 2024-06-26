@@ -559,12 +559,19 @@ color: white;
   }
 
   
+  
 }
 
 @media screen and (max-width: 600px){
   .app-hero-text p {
     width: 90%;
   }
+
+  .blob {
+    height: 350px;
+
+  }
+
 
   .app-hero-grid {
     margin-top: 51px;
