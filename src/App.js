@@ -6,6 +6,7 @@ import project1 from './assets/project1.jpg'
 import project2 from './assets/project2.gif'
 import project3 from './assets/project3.png'
 import project4 from './assets/project4.jpg'
+import project5 from './assets/project5.gif'
 
 
 
@@ -366,6 +367,24 @@ function App() {
             <div className='project-live'>
               <a href='https://github.com/cs220s24/DevOps-Discord-Bot' target='_blank'><h4>Live Demo</h4></a>
               <a href='https://github.com/cs220s24/DevOps-Discord-Bot' target='_blank'><h4>Github</h4></a>
+            </div>
+          </div>
+
+          <div className='project-image noSlideLeft2'>
+            <img src={project5} alt='project' />
+          </div>
+          <div className='project-text noSlideRight'>
+            <h2>Java Basketball Stats Tracker</h2>
+            <p>A comprehensive Java-based application developed as part of CSCI 234 - Intro to Software Engineering. This project implements a user-friendly graphical interface to efficiently track, manage, and analyze player statistics for the Moravian Women's Basketball Team. Key features include:</p>
+            <div className='project-tech'>
+              <h4>Java</h4>
+              <h4>JavaFX</h4>
+              <h4>MySQL</h4>
+              <h4>Netbeans</h4>
+            </div>
+            <div className='project-live'>
+              <a href='https://github.com/Dbad0210/Software-Engineering-Project' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/Dbad0210/Software-Engineering-Project' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
 
