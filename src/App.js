@@ -375,7 +375,7 @@ function App() {
           </div>
           <div className='project-text noSlideRight'>
             <h2>Java Basketball Stats Tracker</h2>
-            <p>A comprehensive Java-based application developed as part of CSCI 234 - Intro to Software Engineering. This project implements a user-friendly graphical interface to efficiently track, manage, and analyze player statistics for the Moravian Women's Basketball Team. Key features include:</p>
+            <p>A comprehensive Java-based application project that implements a user-friendly graphical interface to efficiently track, manage, and analyze player statistics for the Moravian Women's Basketball Team using MySQL.</p>
             <div className='project-tech'>
               <h4>Java</h4>
               <h4>JavaFX</h4>
