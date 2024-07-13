@@ -262,16 +262,24 @@ function App() {
           Experience
         </h1>
         <div className='experience-grid'>
+        <div className='date'>
+            <h3 className='noSlideLeft2'>July 2024 – Present</h3>
+          </div>
+          <div className='experience-text noSlideRight'>
+            <h3 className='hidden'>Software Engineer Fellow </h3>
+            <p className='italicText'>Headstarter.co</p>
+            <p className='hidden'>Going to develope 5 AI projects over a period of 5 weeks, demonstrating strong project management and technical skills in artificial intelligence.
+Collaborated with industry tech professionals on innovated tech professional on real-world problems
+Enhanced skills in software developement, project management, and team collaberation through intensive workshops and practical applications.</p>
+          </div>
           <div className='date'>
             <h3 className='noSlideLeft2'>December 2023 – Present</h3>
           </div>
           <div className='experience-text noSlideRight'>
             <h3 className='hidden'>Web Developer</h3>
             <p className='italicText'>Freelance</p>
-            <p className='hidden'>Developed an ecommerce photography portfolio website for professional photographer using React.js.
-              Created components for home, shop, product details, cart, contact form, and about pages.
-              Managed state with React Context API and ShopContextProvider component.
-              Used React router for navigation between pages.</p>
+            <p className='hidden'>Developed a sophisticated photography portfolio website for professional photographers using React.js, ensuring a high-quality, responsive user experience.
+            Collaborated with photographers to understand requirements and add features such as image galleries, and contact information and services.</p>
           </div>
           <div className='date'>
             <h3 className='noSlideLeft2'>February 2024</h3>
@@ -282,16 +290,7 @@ function App() {
             <p className='hidden'>Developed a data application leveraging Financial & Economic Essentials from Cybersyn, utilizing Snowflake Marketplace.
               Processed data with Snowpark, developed a simple ML model, and created a Python UDF in Snowflake.</p>
           </div>
-          <div className='date'>
-            <h3 className='hidden' id='timeDate'>December 2023</h3>
-          </div>
-          <div className='experience-text noSlideRight'>
-            <h3 className='hidden'>HTML & CSS Full Course</h3>
-            <p className='italicText'>SuperSimple.dev</p>
-            <p className='hidden'>Proficiency in HTML for structuring web content and CSS for styling and layout
-              Building responsive web designs
-              Understanding the fundamentals of web development</p>
-          </div>
+          
         </div>
 
       </div>
