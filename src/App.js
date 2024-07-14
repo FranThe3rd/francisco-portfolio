@@ -268,7 +268,7 @@ function App() {
           <div className='experience-text noSlideRight'>
             <h3 className='hidden'>Software Engineer Fellow </h3>
             <p className='italicText'>Headstarter.co</p>
-            <p className='hidden'>Going to develope 5 AI projects over a period of 5 weeks, demonstrating strong project management and technical skills in artificial intelligence.
+            <p className='hidden'>Going to develop 5 AI projects over a period of 5 weeks, demonstrating strong project management and technical skills in artificial intelligence.
 Collaborated with industry tech professionals on innovated tech professional on real-world problems
 Enhanced skills in software developement, project management, and team collaberation through intensive workshops and practical applications.</p>
           </div>
