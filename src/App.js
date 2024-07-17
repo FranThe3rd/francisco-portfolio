@@ -7,6 +7,7 @@ import project2 from './assets/project2.gif'
 import project3 from './assets/project3.png'
 import project4 from './assets/project4.jpg'
 import project5 from './assets/project5.gif'
+import project6 from './assets/project6.jpg'
 
 
 
@@ -297,6 +298,27 @@ Enhanced skills in software developement, project management, and team collabera
       <div className='projects'>
         <h1 className='hidden'>Projects</h1>
         <div className='project-grid'>
+
+        <div className='project-image noSlideLeft2'>
+            <img src={project6} alt='project' />
+          </div>
+          <div className='project-text noSlideRight'>
+            <h2>Photographer Portfolio</h2>
+            <p>Brandon Guaman's Photography Website showcases the artistic talents of Brandon, a passionate photographer studying media productions at Northampton Community College. The site features diverse galleries including urban street photography, architectural photography, portrait photography, and sunset photography.
+
+</p>
+            <div className='project-tech'>
+              <h4>HTML</h4>
+              <h4>CSS</h4>
+              <h4>React</h4>
+              <h4>JavaScript</h4>
+            </div>
+            <div className='project-live'>
+              <a href='https://brandon-guaman.vercel.app/#/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://brandon-guaman.vercel.app/#/' target='_blank'><h4>Github</h4></a>
+            </div>
+          </div>
+
           <div className='project-image noSlideLeft2'>
             <img src={project4} alt='project' />
           </div>
