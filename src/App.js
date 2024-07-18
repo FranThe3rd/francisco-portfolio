@@ -8,6 +8,8 @@ import project3 from './assets/project3.png'
 import project4 from './assets/project4.jpg'
 import project5 from './assets/project5.gif'
 import project6 from './assets/project6.jpg'
+import Lenis from 'lenis'
+
 
 
 
@@ -212,6 +214,19 @@ function App() {
 
   ]
 
+  useEffect(() => {
+    const lenis = new Lenis()
+
+    
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  })
+
 
   return (
     <div className="App">
@@ -263,15 +278,15 @@ function App() {
           Experience
         </h1>
         <div className='experience-grid'>
-        <div className='date'>
+          <div className='date'>
             <h3 className='noSlideLeft2'>July 2024 – Present</h3>
           </div>
           <div className='experience-text noSlideRight'>
             <h3 className='hidden'>Software Engineer Fellow </h3>
             <p className='italicText'>Headstarter.co</p>
             <p className='hidden'>Going to develop 5 AI projects over a period of 7 weeks, demonstrating strong project management and technical skills in artificial intelligence.
-Collaborated with industry tech professionals on innovated tech professional on real-world problems
-Enhanced skills in software developement, project management, and team collaberation through intensive workshops and practical applications.</p>
+              Collaborated with industry tech professionals on innovated tech professional on real-world problems
+              Enhanced skills in software developement, project management, and team collaberation through intensive workshops and practical applications.</p>
           </div>
           <div className='date'>
             <h3 className='noSlideLeft2'>December 2023 – Present</h3>
@@ -280,7 +295,7 @@ Enhanced skills in software developement, project management, and team collabera
             <h3 className='hidden'>Web Developer</h3>
             <p className='italicText'>Freelance</p>
             <p className='hidden'>Developed a sophisticated photography portfolio website for professional photographers using React.js, ensuring a high-quality, responsive user experience.
-            Collaborated with photographers to understand requirements and add features such as image galleries, and contact information and services.</p>
+              Collaborated with photographers to understand requirements and add features such as image galleries, and contact information and services.</p>
           </div>
           <div className='date'>
             <h3 className='noSlideLeft2'>February 2024</h3>
@@ -291,7 +306,7 @@ Enhanced skills in software developement, project management, and team collabera
             <p className='hidden'>Developed a data application leveraging Financial & Economic Essentials from Cybersyn, utilizing Snowflake Marketplace.
               Processed data with Snowpark, developed a simple ML model, and created a Python UDF in Snowflake.</p>
           </div>
-          
+
         </div>
 
       </div>
@@ -299,14 +314,14 @@ Enhanced skills in software developement, project management, and team collabera
         <h1 className='hidden'>Projects</h1>
         <div className='project-grid'>
 
-        <div className='project-image noSlideLeft2'>
+          <div className='project-image noSlideLeft2'>
             <img src={project6} alt='project' />
           </div>
           <div className='project-text noSlideRight'>
             <h2>Photographer Portfolio</h2>
             <p>Brandon Guaman's Photography Website showcases the artistic talents of Brandon, a passionate photographer studying media productions at Northampton Community College. The site features diverse galleries including urban street photography, architectural photography, portrait photography, and sunset photography.
 
-</p>
+            </p>
             <div className='project-tech'>
               <h4>HTML</h4>
               <h4>CSS</h4>
@@ -409,10 +424,10 @@ Enhanced skills in software developement, project management, and team collabera
             </div>
           </div>
 
-          
+
         </div>
       </div>
-      
+
     </div>
   );
 }
