@@ -319,7 +319,7 @@ function App() {
           </div>
           <div className='project-text noSlideRight'>
             <h2>Photographer Portfolio</h2>
-            <p>Brandon Guaman's Photography Website showcases the artistic talents of Brandon, a passionate photographer studying media productions at Northampton Community College. The site features diverse galleries including urban street photography, architectural photography, portrait photography, and sunset photography.
+            <p>This is a Photography Portfolio Website that showcases the artistic talents of Brandon, a passionate photographer studying media productions at Northampton Community College. The site features diverse galleries including urban street photography, architectural photography, portrait photography, and sunset photography.
 
             </p>
             <div className='project-tech'>
