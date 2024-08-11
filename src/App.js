@@ -304,7 +304,6 @@ function App() {
             <h3 className='hidden'>Course</h3>
             <p className='italicText'>Spring Boot For Beginners</p>
             <p className='hidden'>
-              ChatGPT
               Experienced in Spring Boot development with expertise in Spring Web MVC for building scalable web applications. Proficient in managing JSON data and database connectivity using Spring Data JPA, and skilled in designing and implementing CRUD APIs.</p>
           </div>
 
