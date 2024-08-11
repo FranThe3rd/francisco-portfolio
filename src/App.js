@@ -217,7 +217,7 @@ function App() {
   useEffect(() => {
     const lenis = new Lenis()
 
-    
+
 
     function raf(time) {
       lenis.raf(time)
@@ -298,13 +298,14 @@ function App() {
               Collaborated with photographers to understand requirements and add features such as image galleries, and contact information and services.</p>
           </div>
           <div className='date'>
-            <h3 className='noSlideLeft2'>February 2024</h3>
+            <h3 className='noSlideLeft2'>July 2024</h3>
           </div>
           <div className='experience-text noSlideRight'>
-            <h3 className='hidden'>Lab</h3>
-            <p className='italicText'>Snowflake</p>
-            <p className='hidden'>Developed a data application leveraging Financial & Economic Essentials from Cybersyn, utilizing Snowflake Marketplace.
-              Processed data with Snowpark, developed a simple ML model, and created a Python UDF in Snowflake.</p>
+            <h3 className='hidden'>Course</h3>
+            <p className='italicText'>Spring Boot For Beginners</p>
+            <p className='hidden'>
+              ChatGPT
+              Experienced in Spring Boot development with expertise in Spring Web MVC for building scalable web applications. Proficient in managing JSON data and database connectivity using Spring Data JPA, and skilled in designing and implementing CRUD APIs.</p>
           </div>
 
         </div>
@@ -339,7 +340,7 @@ function App() {
           </div>
           <div className='project-text noSlideRight'>
             <h2>ZephyrGPT</h2>
-            <p>ZephyrGPT is supposed to be an advanced AI-powered chatbot. It uses the Gemini API (chatbot from google) for intelligent, personalized responses and the News API for real-time updates. Our platform ensures a secure, engaging conversation experience with a user-friendly interface. </p>
+            <p>ZephyrGPT is supposed to be an advanced AI-powered chatbot. It uses the Gemini API (Google's LLM) for intelligent, personalized responses and the News API for real-time updates. Our platform ensures a secure, engaging conversation experience with a user-friendly interface. </p>
             <div className='project-tech'>
               <h4>HTML</h4>
               <h4>CSS</h4>
@@ -347,7 +348,7 @@ function App() {
               <h4>JavaScript</h4>
             </div>
             <div className='project-live'>
-              <a href='https://zephyrgpt.netlify.app/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://zephyr-gpt.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
               <a href='https://github.com/FranThe3rd/ZephyrGPT' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
