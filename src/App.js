@@ -8,6 +8,9 @@ import project3 from './assets/project3.png'
 import project4 from './assets/project4.jpg'
 import project5 from './assets/project5.gif'
 import project6 from './assets/project6.jpg'
+import project7 from './assets/project7.gif'
+
+
 import Lenis from 'lenis'
 
 
@@ -313,6 +316,24 @@ function App() {
       <div className='projects'>
         <h1 className='hidden'>Projects</h1>
         <div className='project-grid'>
+
+        <div className='project-image noSlideLeft2'>
+            <img src={project7} alt='project' />
+          </div>
+          <div className='project-text noSlideRight'>
+            <h2>AI Customer Support</h2>
+            <p>A Next.js landing page for an e-commerce platform featuring a Gemini API-powered support chatbot. This project demonstrates integration of AI-assisted customer support within a modern React-based web application.AI Customer Support. </p>
+            <div className='project-tech'>
+              <h4>HTML</h4>
+              <h4>CSS</h4>
+              <h4>Next.js</h4>
+              <h4>JavaScript</h4>
+            </div>
+            <div className='project-live'>
+              <a href='https://ai-customer-support-sable.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/FranThe3rd/AI-Customer-Support' target='_blank'><h4>Github</h4></a>
+            </div>
+          </div>
 
           <div className='project-image noSlideLeft2'>
             <img src={project6} alt='project' />
