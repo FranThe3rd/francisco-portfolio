@@ -9,6 +9,8 @@ import project4 from './assets/project4.jpg'
 import project5 from './assets/project5.gif'
 import project6 from './assets/project6.jpg'
 import project7 from './assets/project7.gif'
+import project8 from './assets/project8.png'
+
 
 
 import Lenis from 'lenis'
@@ -318,23 +320,45 @@ function App() {
         <div className='project-grid'>
 
         <div className='project-image noSlideLeft2'>
-            <img src={project7} alt='project' />
+            <img src={project8} alt='project' />
           </div>
           <div className='project-text noSlideRight'>
-            <h2>AI Customer Support</h2>
-            <p>A Next.js landing page for an e-commerce platform featuring a Gemini API-powered support chatbot. This project demonstrates integration of AI-assisted customer support within a modern React-based web application.AI Customer Support. </p>
+            <h2>UFC Insight</h2>
+          <p>UFC Insight is a full-stack web application for searching and viewing detailed UFC fighter profiles. Users can easily find fighters by name and access comprehensive information including weight, height, stance, and date of birth. The app combines a responsive React frontend with a Spring Boot backend and PostgreSQL database for efficient data management.</p>
             <div className='project-tech'>
-              <h4>HTML</h4>
-              <h4>CSS</h4>
-              <h4>Next.js</h4>
-              <h4>JavaScript</h4>
+              <h4>ReactJS</h4>
+              <h4>PostgreSQL</h4>
+              <h4>SpringBoot</h4>
+              <h4>NodeJS</h4>
+
+
             </div>
             <div className='project-live'>
-              <a href='https://ai-customer-support-sable.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
-              <a href='https://github.com/FranThe3rd/AI-Customer-Support' target='_blank'><h4>Github</h4></a>
+              <a href='https://ufc-insight.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/FranThe3rd/UFC-Insight' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
 
+
+          <div className='project-image noSlideLeft2'>
+            <img src={project4} alt='project' />
+          </div>
+          <div className='project-text noSlideRight'>
+            <h2>ZephyrGPT</h2>
+            <p>ZephyrGPT is supposed to be an advanced AI-powered chatbot. It uses the Gemini API (Google's LLM) for intelligent, personalized responses and the News API for real-time updates. Our platform ensures a secure, engaging conversation experience with a user-friendly interface. </p>
+            <div className='project-tech'>
+              <h4>ReactJS</h4>
+              <h4>NodeJS</h4>
+              <h4>JavaScript</h4>
+              <h4>CSS</h4>
+            </div>
+            <div className='project-live'>
+              <a href='https://zephyr-gpt.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/FranThe3rd/ZephyrGPT' target='_blank'><h4>Github</h4></a>
+            </div>
+          </div>
+
+       
           <div className='project-image noSlideLeft2'>
             <img src={project6} alt='project' />
           </div>
@@ -344,10 +368,10 @@ function App() {
 
             </p>
             <div className='project-tech'>
-              <h4>HTML</h4>
-              <h4>CSS</h4>
-              <h4>React</h4>
+              <h4>ReactJS</h4>
+              <h4>NodeJS</h4>
               <h4>JavaScript</h4>
+              <h4>CSS</h4>
             </div>
             <div className='project-live'>
               <a href='https://brandon-guaman.vercel.app/#/' target='_blank'><h4>Live Demo</h4></a>
@@ -355,23 +379,27 @@ function App() {
             </div>
           </div>
 
+
           <div className='project-image noSlideLeft2'>
-            <img src={project4} alt='project' />
+            <img src={project7} alt='project' />
           </div>
           <div className='project-text noSlideRight'>
-            <h2>ZephyrGPT</h2>
-            <p>ZephyrGPT is supposed to be an advanced AI-powered chatbot. It uses the Gemini API (Google's LLM) for intelligent, personalized responses and the News API for real-time updates. Our platform ensures a secure, engaging conversation experience with a user-friendly interface. </p>
+            <h2>AI Customer Support</h2>
+            <p>A Next.js landing page for an e-commerce platform featuring a Gemini API-powered support chatbot. This project demonstrates integration of AI-assisted customer support within a modern React-based web application.AI Customer Support. </p>
             <div className='project-tech'>
-              <h4>HTML</h4>
-              <h4>CSS</h4>
-              <h4>React</h4>
+              <h4>Next.js</h4>
+              <h4>ReactJS</h4>
+              <h4>NodeJS</h4>
               <h4>JavaScript</h4>
+
             </div>
             <div className='project-live'>
-              <a href='https://zephyr-gpt.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
-              <a href='https://github.com/FranThe3rd/ZephyrGPT' target='_blank'><h4>Github</h4></a>
+              <a href='https://ai-customer-support-sable.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
+              <a href='https://github.com/FranThe3rd/AI-Customer-Support' target='_blank'><h4>Github</h4></a>
             </div>
           </div>
+
+
 
           <div className='project-image noSlideLeft2'>
             <img src={project1} alt='project' />
@@ -380,10 +408,10 @@ function App() {
             <h2>Infinitron</h2>
             <p>Infinitron is a website for a computer store that specializes in custom-built gaming PCs. The website allows users to browse and configure their desired gaming PC based on their budget and performance requirements.</p>
             <div className='project-tech'>
-              <h4>HTML</h4>
-              <h4>CSS</h4>
-              <h4>React</h4>
+              <h4>ReactJS</h4>
               <h4>JavaScript</h4>
+              <h4>NodeJS</h4>
+              <h4>CSS</h4>
             </div>
             <div className='project-live'>
               <a href='https://infinitron.netlify.app/' target='_blank'><h4>Live Demo</h4></a>
@@ -398,10 +426,10 @@ function App() {
             <h2>Opulance</h2>
             <p>Opulance is a financial app that provides users with excellent financial services and tools to manage their investments, including cryptocurrencies and stocks. Does provide real time stock market data with Real-Time Finance Data API.</p>
             <div className='project-tech'>
-              <h4>HTML</h4>
-              <h4>CSS</h4>
-              <h4>React</h4>
+            <h4>ReactJS</h4>
               <h4>JavaScript</h4>
+              <h4>NodeJS</h4>
+              <h4>CSS</h4>
             </div>
             <div className='project-live'>
               <a href='https://opulance.vercel.app/' target='_blank'><h4>Live Demo</h4></a>
