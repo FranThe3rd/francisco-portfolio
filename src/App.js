@@ -283,15 +283,25 @@ function App() {
           Experience
         </h1>
         <div className='experience-grid'>
+        <div className='date'>
+            <h3 className='noSlideLeft2'>August 2024 – Present</h3>
+          </div>
+          <div className='experience-text noSlideRight'>
+            <h3 className='hidden'>AI Prompt Writer</h3>
+            <p className='italicText'>Outlier AI</p>
+            <p className='hidden'>Reviewed and evaluated responses from multiple AI LLM (Large Language Model) bots to ensure accuracy, clarity, and user relevance.
+            Provided feedback on AI-generated content to improve language models' performance in real-world use cases.</p>
+          </div>
+
           <div className='date'>
-            <h3 className='noSlideLeft2'>July 2024 – Present</h3>
+            <h3 className='noSlideLeft2'>July 2024 – September 2024</h3>
           </div>
           <div className='experience-text noSlideRight'>
             <h3 className='hidden'>Software Engineer Fellow </h3>
             <p className='italicText'>Headstarter.co</p>
-            <p className='hidden'>Going to develop 5 AI projects over a period of 7 weeks, demonstrating strong project management and technical skills in artificial intelligence.
-              Collaborated with industry tech professionals on innovated tech professional on real-world problems
-              Enhanced skills in software developement, project management, and team collaberation through intensive workshops and practical applications.</p>
+            <p className='hidden'>Built 5 AI projects over a period of 7 weeks. This included working extensively on the front-end using Next.js, as well as integrating Firebase and the Stripe API. I also gained experience with OpenAI's tools and APIs to create a SaaS project.
+As part of my team, I focused on front-end development while my teammate worked on the backend.
+Contributed to the open-source project FreeCodeCamp as part of a final group project.</p>
           </div>
           <div className='date'>
             <h3 className='noSlideLeft2'>December 2023 – Present</h3>
