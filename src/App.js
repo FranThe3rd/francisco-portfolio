@@ -355,7 +355,7 @@ Contributed to the open-source project FreeCodeCamp as part of a final group pro
           </div>
           <div className='project-text noSlideRight'>
             <h2>ZephyrGPT</h2>
-            <p>ZephyrGPT is supposed to be an advanced AI-powered chatbot. It uses the Gemini API (Google's LLM) for intelligent, personalized responses and the News API for real-time updates. Our platform ensures a secure, engaging conversation experience with a user-friendly interface. </p>
+            <p>ZephyrGPT is supposed to be a conceptual advanced AI-powered chatbot. It uses the Gemini API (Google's LLM) for intelligent, personalized responses and the News API for real-time updates. Our platform ensures a secure, engaging conversation experience with a user-friendly interface. </p>
             <div className='project-tech'>
               <h4>ReactJS</h4>
               <h4>NodeJS</h4>
@@ -395,7 +395,7 @@ Contributed to the open-source project FreeCodeCamp as part of a final group pro
           </div>
           <div className='project-text noSlideRight'>
             <h2>AI Customer Support</h2>
-            <p>A Next.js landing page for an e-commerce platform featuring a Gemini API-powered support chatbot. This project demonstrates integration of AI-assisted customer support within a modern React-based web application.AI Customer Support. </p>
+            <p>A Next.js landing page for a conceptual e-commerce platform featuring a Gemini API-powered support chatbot. This project demonstrates integration of AI-assisted customer support within a modern React-based web application.AI Customer Support. </p>
             <div className='project-tech'>
               <h4>Next.js</h4>
               <h4>ReactJS</h4>
@@ -416,7 +416,7 @@ Contributed to the open-source project FreeCodeCamp as part of a final group pro
           </div>
           <div className='project-text noSlideRight'>
             <h2>Infinitron</h2>
-            <p>Infinitron is a website for a computer store that specializes in custom-built gaming PCs. The website allows users to browse and configure their desired gaming PC based on their budget and performance requirements.</p>
+            <p>Infinitron is a website for a conceptual computer store website that specializes in custom-built gaming PCs. The website allows users to browse and configure their desired gaming PC based on their budget and performance requirements.</p>
             <div className='project-tech'>
               <h4>ReactJS</h4>
               <h4>JavaScript</h4>
@@ -434,7 +434,7 @@ Contributed to the open-source project FreeCodeCamp as part of a final group pro
           </div>
           <div className='project-text noSlideRight'>
             <h2>Opulance</h2>
-            <p>Opulance is a financial app that provides users with excellent financial services and tools to manage their investments, including cryptocurrencies and stocks. Does provide real time stock market data with Real-Time Finance Data API.</p>
+            <p>Opulance is a conceptual design for financial app that provides users with excellent financial services and tools to manage their investments, including cryptocurrencies and stocks. Does provide real time stock market data with Real-Time Finance Data API.</p>
             <div className='project-tech'>
             <h4>ReactJS</h4>
               <h4>JavaScript</h4>
