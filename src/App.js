@@ -416,7 +416,7 @@ Contributed to the open-source project FreeCodeCamp as part of a final group pro
           </div>
           <div className='project-text noSlideRight'>
             <h2>Infinitron</h2>
-            <p>Infinitron is a website for a conceptual computer store website that specializes in custom-built gaming PCs. The website allows users to browse and configure their desired gaming PC based on their budget and performance requirements.</p>
+            <p>Infinitron is a website for a conceptual computer store that specializes in custom-built gaming PCs. The website allows users to browse and configure their desired gaming PC based on their budget and performance requirements.</p>
             <div className='project-tech'>
               <h4>ReactJS</h4>
               <h4>JavaScript</h4>
